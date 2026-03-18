@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY CON FONDO */
+body {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0,0,0,0.4),
+      rgba(0,0,0,0.4)
+    ),
+    url("images/run.png") center/cover no-repeat;
+}
+
+/* HEADER NEGRO ARRIBA */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.tri {
+  color: red;
+}
+
+.bcn {
+  color: #ffffff;
+}
+
+/* CONTENEDOR CENTRADO */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 70px; /* espacio del header */
+}
+
+/* LOGIN BOX MÁS GRANDE */
+.login-box {
+  background-color: white;
+  padding: 50px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+/* TÍTULO */
+.login-box h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+/* INPUTS GRANDES */
+.login-box input {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* BOTÓN GRANDE */
+.login-box button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.card p {
+    padding: 0 25px 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* HOVER BOTÓN */
+.login-box button:hover {
+  background-color: darkred;
+}
+
