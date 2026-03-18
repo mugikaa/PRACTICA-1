@@ -53,8 +53,8 @@ body {
   padding-top: 70px; /* espacio del header */
 }
 
-/* LOGIN BOX MÁS GRANDE */
-.login-box {
+/* REGISTER FORM MÁS GRANDE */
+.register-form {
   background-color: white;
   padding: 50px;
   width: 400px;
@@ -64,13 +64,13 @@ body {
 }
 
 /* TÍTULO */
-.login-box h2 {
+.register-form h2 {
   margin-bottom: 25px;
   font-size: 26px;
 }
 
 /* INPUTS GRANDES */
-.login-box input {
+.register-form input {
   width: 100%;
   padding: 14px;
   margin: 12px 0;
@@ -80,23 +80,25 @@ body {
 }
 
 /* BOTÓN GRANDE */
-.login-box button {
+.boton {
+  display: inline-block;
   width: 100%;
   padding: 14px;
   font-size: 16px;
-  background-color: red;
-  color: white;
-  border: none;
-  border-radius: 6px;
+  background-color: red;  
+  color: white;          
+  border: none;           
+  border-radius: 6px;      
   font-weight: bold;
+  text-align: center;
+  text-decoration: none;   
   cursor: pointer;
+  box-shadow: none;       
 }
 
-/* HOVER BOTÓN */
-.login-box button:hover {
+.boton:hover {
   background-color: darkred;
 }
-
 .back-btn {
     display: inline-block;
     margin-top: 15px;

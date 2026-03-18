@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Login TRIBCN</title>
-  <link rel="stylesheet" href="Login.css">
+  <link rel="stylesheet" href="Register.css">
 </head>
 
 <body>
@@ -15,16 +15,23 @@
   </header>
 
   <div class="container">
-    <div class="login-box">
-      <h2>Iniciar sesión</h2>
+    <div class="register-form">
+      <h2>Registrar</h2>
 
-      <form>
-        <input type="text" placeholder="Usuario" required>
-        <input type="password" placeholder="Contraseña" required>
-        <button type="submit">Entrar</button>
-        <br><br>
-        <p class="register-link">¿No tienes una cuenta? <a href="#">Regístrate</a></p>
-      </form>
+<form action="index.html">
+  <input type="text" placeholder="Pon tu Usuario" required>
+  <input type="password" placeholder="Pon tu Contraseña" required>
+  <input type="password" placeholder="Repite tu Contraseña" required>
+  
+  <!-- Botón real -->
+  <button type="submit" class="boton">Crear Cuenta</button>
+  
+  <br><br>
+  <p class="register-link">
+    ¿Ya tienes una cuenta? <a href="Login.html">Inicia sesión</a>
+  </p>
+</form>
+<a href="index.html" class="back-btn">Atrás</a>
 
     </div>
   </div>
