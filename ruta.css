@@ -23,7 +23,7 @@ header{
     justify-content:space-between;
     align-items:center;
 }
-.login-btn {
+.cerrar-sesion-btn {
     padding: 8px 14px;
     background: rgb(255, 0, 0);
     color: black;
@@ -33,7 +33,7 @@ header{
     transition: 0.2s;
 }
 
-.login-btn:hover {
+.cerrar-sesion-btn:hover {
     background: #e6e6e6;
 }
 
