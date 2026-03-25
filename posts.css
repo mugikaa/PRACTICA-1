@@ -24,6 +24,21 @@ header{
     align-items:center;
 }
 
+.Cerrar-Sesion-btn {
+    padding: 8px 14px;
+    background: rgb(255, 0, 0);
+    color: black;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+
+.cerrar-sesion-btn:hover {
+    background: #e6e6e6;
+}
+
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -35,6 +50,12 @@ header{
 
 .logo .bcn {
     color: white;
+}
+
+
+.logo a {
+    color: white;
+    text-decoration: none;
 }
     
 nav a{
